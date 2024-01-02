@@ -3,3 +3,29 @@
     height: auto;
     border-radius: 10px;
 }
+
+.features .icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.quote {
+    font-size: 1.5rem;
+    font-style: italic; 
+    line-height: 36px;
+}
+
+.quotes img {
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .quotes .quote {
+      font-size: 1.25rem;
+      line-height: 36px;
+    }
+  }
